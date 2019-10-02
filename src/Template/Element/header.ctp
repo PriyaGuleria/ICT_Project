@@ -3,6 +3,7 @@
 <head> 
 <title>Uniwise</title>
   <?= $this->Html->css('style1.css') ?>
+  <?= $this->Html->css('css/contact.css') ?>
    <?= $this->Html->css('css/bootstrap.css') ?>
    <?= $this->Html->css('css/login_overlay.css') ?>
    <?= $this->Html->css('css/style6.css') ?>
@@ -245,12 +246,12 @@
 											<ul>
 												<li class="button-log">
 													<a class="btn-open" href="#">
-														<span class="fa fa-user" aria-hidden="true"> Existing User</span>
+														<span class="fa fa-user" aria-hidden="true">Login</span>
 													</a>
 												</li>
-												<li class="button-log">
-													<a class="btn-open" href="#">
-														<span class="fa fa-user" aria-hidden="true"> New User</span>
+												<li class="">
+													<a class="btn-open" href="<?php echo $this->Url->build(["controller"=>"user","action"=>"signup"]);?>">
+														<span class="fa fa-user" aria-hidden="true">Signup</span>
 													</a>
 												</li>
 												

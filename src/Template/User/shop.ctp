@@ -1,24 +1,9 @@
-<!-- banner -->
-<div class="banner_inner">
-<div class="services-breadcrumb">
-	<div class="inner_breadcrumb">
 
-		<ul class="short">
-			<li>
-				<a href="<?php echo $this->Url->build(["controller"=>"user","action"=>"index"]);?>">Home</a>
-				<i>|</i>
-			</li>
-			<li>Shop</li>
-		</ul>
-	</div>
-</div>
-
-</div>
 
 <section class="banner-bottom-wthreelayouts py-lg-5 py-3">
 <div class="container-fluid">
 	<div class="inner-sec-shop px-lg-4 px-3">
-		<h3 class="tittle-w3layouts my-lg-4 mt-3">Popular In Market</h3>
+		<h3 class="tittle-w3layouts my-lg-4 mt-3">Popular In Uniwise</h3>
 		<div class="row">
 			<!-- product left -->
 			<div class="side-bar col-lg-3">
@@ -83,11 +68,11 @@
 				<div class="wrapper_top_shop">
 					<div class="row">
 							<div class="col-md-6 shop_left">
-									<img src="images/banner3.jpg" alt="">
+							<?php echo $this->HTML->image('lap1.jpg'); ?>
 									<h6>40% off</h6>
 								</div>
 								<div class="col-md-6 shop_right">
-									<img src="images/banner4.jpg" alt="">
+								<?php echo $this->HTML->image('laptop2.jpg'); ?>
 									<h6>50% off</h6>
 								</div>
 			
@@ -98,7 +83,7 @@
 							<div class="product-googles-info googles">
 								<div class="men-pro-item">
 									<div class="men-thumb-item">
-										<img src="images/s1.jpg" class="img-fluid" alt="">
+										<?php echo $this->HTML->image('l1.jpg'); ?>
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="#" class="link-product-add-cart">Quick View</a>
@@ -141,7 +126,7 @@
 							<div class="product-googles-info googles">
 								<div class="men-pro-item">
 									<div class="men-thumb-item">
-										<img src="images/s2.jpg" class="img-fluid" alt="">
+										<?php echo $this->HTML->image('l2.jpg'); ?>
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="#" class="link-product-add-cart">Quick View</a>
@@ -186,7 +171,7 @@
 							<div class="product-googles-info googles">
 								<div class="men-pro-item">
 									<div class="men-thumb-item">
-										<img src="images/s3.jpg" class="img-fluid" alt="">
+										<?php echo $this->HTML->image('l3.jpg'); ?>
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="#" class="link-product-add-cart">Quick View</a>
@@ -230,7 +215,7 @@
 							<div class="product-googles-info googles">
 								<div class="men-pro-item">
 									<div class="men-thumb-item">
-										<img src="images/s4.jpg" class="img-fluid" alt="">
+										<?php echo $this->HTML->image('l5.jpg'); ?>
 										<div class="men-cart-pro">
 											<div class="inner-men-cart-pro">
 												<a href="#" class="link-product-add-cart">Quick View</a>
@@ -277,7 +262,7 @@
 								<div class="product-googles-info googles">
 									<div class="men-pro-item">
 										<div class="men-thumb-item">
-											<img src="images/m1.jpg" class="img-fluid" alt="">
+										<?php echo $this->HTML->image('a1.jpg'); ?>
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="#" class="link-product-add-cart">Quick View</a>
@@ -321,7 +306,7 @@
 								<div class="product-googles-info googles">
 									<div class="men-pro-item">
 										<div class="men-thumb-item">
-											<img src="images/m2.jpg" class="img-fluid" alt="">
+										<?php echo $this->HTML->image('a2.jpg'); ?>
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="#" class="link-product-add-cart">Quick View</a>
@@ -364,7 +349,7 @@
 								<div class="product-googles-info googles">
 									<div class="men-pro-item">
 										<div class="men-thumb-item">
-											<img src="images/m3.jpg" class="img-fluid" alt="">
+										<?php echo $this->HTML->image('a3.jpg'); ?>
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="#" class="link-product-add-cart">Quick View</a>
@@ -408,7 +393,7 @@
 								<div class="product-googles-info googles">
 									<div class="men-pro-item">
 										<div class="men-thumb-item">
-											<img src="images/m4.jpg" class="img-fluid" alt="">
+										<?php echo $this->HTML->image('a4.jpg'); ?>
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
 													<a href="#" class="link-product-add-cart">Quick View</a>
@@ -456,7 +441,7 @@
 									<div class="product-googles-info googles">
 										<div class="men-pro-item">
 											<div class="men-thumb-item">
-												<img src="images/s1.jpg" class="img-fluid" alt="">
+											<?php echo $this->HTML->image('D4.jpg'); ?>
 												<div class="men-cart-pro">
 													<div class="inner-men-cart-pro">
 														<a href="#" class="link-product-add-cart">Quick View</a>
@@ -499,7 +484,7 @@
 									<div class="product-googles-info googles">
 										<div class="men-pro-item">
 											<div class="men-thumb-item">
-												<img src="images/s2.jpg" class="img-fluid" alt="">
+											<?php echo $this->HTML->image('D2.jpg'); ?>
 												<div class="men-cart-pro">
 													<div class="inner-men-cart-pro">
 														<a href="#" class="link-product-add-cart">Quick View</a>
@@ -543,7 +528,7 @@
 									<div class="product-googles-info googles">
 										<div class="men-pro-item">
 											<div class="men-thumb-item">
-												<img src="images/s3.jpg" class="img-fluid" alt="">
+											<?php echo $this->HTML->image('D3.jpg'); ?>
 												<div class="men-cart-pro">
 													<div class="inner-men-cart-pro">
 														<a href="#" class="link-product-add-cart">Quick View</a>
@@ -587,7 +572,7 @@
 									<div class="product-googles-info googles">
 										<div class="men-pro-item">
 											<div class="men-thumb-item">
-												<img src="images/s4.jpg" class="img-fluid" alt="">
+											<?php echo $this->HTML->image('laptop2.jpg'); ?>
 												<div class="men-cart-pro">
 													<div class="inner-men-cart-pro">
 														<a href="#" class="link-product-add-cart">Quick View</a>
